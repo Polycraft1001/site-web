@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - NovaTech Solutions</title>
+    <meta name="description" content="Contactez NovaTech Solutions pour discuter de votre projet. Devis gratuit et consultation personnalisée.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.jpg" alt="NovaTech Solutions Logo">
+                    NovaTech Solutions
+                </div>
+                <nav class="nav">
+                    <a href="index.html">Accueil</a>
+                    <a href="about.html">À propos</a>
+                    <a href="services.html">Services</a>
+                    <a href="casestudies.html">Études de cas</a>
+                    <a href="contact.html" class="active">Contact</a>
+                </nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="padding: 120px 0 80px;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Contactez-nous</h1>
+                <p>Prêt à transformer votre vision en réalité ? Parlons de votre projet</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2">
+                <!-- Contact Form -->
+                <div>
+                    <h2>Demande de Devis Gratuit</h2>
+                    <p>Remplissez ce formulaire et nous vous recontacterons dans les 24 heures pour discuter de votre projet.</p>
+                    
+                    <form id="contactForm" style="margin-top: 2rem;">
+                        <div class="form-group">
+                            <label for="name">Nom complet *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Entreprise</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service souhaité *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Sélectionnez un service</option>
+                                <option value="web-development">Développement Web</option>
+                                <option value="cloud-solutions">Solutions Cloud</option>
+                                <option value="mobile-apps">Applications Mobile</option>
+                                <option value="consulting">Consulting IT</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Budget estimé</label>
+                            <select id="budget" name="budget">
+                                <option value="">Sélectionnez votre budget</option>
+                                <option value="5k-15k">5 000€ - 15 000€</option>
+                                <option value="15k-30k">15 000€ - 30 000€</option>
+                                <option value="30k-50k">30 000€ - 50 000€</option>
+                                <option value="50k+">Plus de 50 000€</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline">Délai souhaité</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Sélectionnez un délai</option>
+                                <option value="urgent">Urgent (moins de 1 mois)</option>
+                                <option value="1-3months">1 à 3 mois</option>
+                                <option value="3-6months">3 à 6 mois</option>
+                                <option value="6months+">Plus de 6 mois</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Description du projet *</label>
+                            <textarea id="message" name="message" placeholder="Décrivez votre projet, vos objectifs et vos besoins spécifiques..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            <i class="fas fa-paper-plane" style="margin-right: 10px;"></i>
+                            Envoyer ma demande
+                        </button>
+                    </form>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <div class="contact-info">
+                        <h3>Informations de Contact</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Adresse</strong><br>
+                                123 Rue de la Technologie<br>
+                                75001 Paris, France
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Téléphone</strong><br>
+                                +33 1 23 45 67 89
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong><br>
+                                contact@novatech-solutions.fr
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Horaires</strong><br>
+                                Lun - Ven : 9h00 - 18h00<br>
+                                Sam : 9h00 - 12h00
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Contact Options -->
+                    <div style="margin-top: 2rem;">
+                        <h3>Contacts Rapides</h3>
+                        <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                            <a href="tel:+33123456789" class="btn btn-secondary" style="flex: 1; text-align: center;">
+                                <i class="fas fa-phone"></i><br>
+                                Appeler
+                            </a>
+                            <a href="mailto:contact@novatech-solutions.fr" class="btn btn-outline" style="flex: 1; text-align: center;">
+                                <i class="fas fa-envelope"></i><br>
+                                Email
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media -->
+                    <div style="margin-top: 2rem;">
+                        <h3>Suivez-nous</h3>
+                        <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                            <a href="#" style="color: var(--primary-color); font-size: 2rem;"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" style="color: var(--primary-color); font-size: 2rem;"><i class="fab fa-twitter"></i></a>
+                            <a href="#" style="color: var(--primary-color); font-size: 2rem;"><i class="fab fa-facebook"></i></a>
+                            <a href="#" style="color: var(--primary-color); font-size: 2rem;"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" style="background-color: var(--light-gray);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Questions Fréquentes</h2>
+                <p>Trouvez rapidement les réponses à vos questions</p>
+            </div>
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>Combien de temps prend un projet ?</h3>
+                    <p>La durée varie selon la complexité du projet. Un site web simple prend 2-4 semaines, tandis qu'une application complexe peut nécessiter 3-6 mois. Nous établissons un planning détaillé lors de notre première rencontre.</p>
+                </div>
+                <div class="card">
+                    <h3>Proposez-vous un support après livraison ?</h3>
+                    <p>Oui, nous offrons un support technique complet 24/7. Nous proposons également des contrats de maintenance pour assurer la sécurité et les mises à jour de vos solutions.</p>
+                </div>
+                <div class="card">
+                    <h3>Travaillez-vous avec des petites entreprises ?</h3>
+                    <p>Absolument ! Nous accompagnons des entreprises de toutes tailles, des startups aux grandes corporations. Nos solutions s'adaptent à votre budget et à vos besoins spécifiques.</p>
+                </div>
+                <div class="card">
+                    <h3>Comment se déroule le processus de développement ?</h3>
+                    <p>Nous suivons une méthodologie agile : analyse des besoins, conception, développement itératif avec validations régulières, tests, et déploiement. Vous êtes impliqué à chaque étape.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notre Localisation</h2>
+                <p>Venez nous rendre visite dans nos bureaux parisiens</p>
+            </div>
+            <div style="background-color: var(--light-gray); height: 400px; border-radius: 10px; display: flex; align-items: center; justify-content: center; color: var(--dark-gray);">
+                <div style="text-align: center;">
+                    <i class="fas fa-map-marker-alt" style="font-size: 3rem; color: var(--secondary-color); margin-bottom: 1rem;"></i>
+                    <h3>Carte Interactive</h3>
+                    <p>123 Rue de la Technologie, 75001 Paris</p>
+                    <p style="font-size: 0.9rem; margin-top: 1rem;">Métro : Châtelet-Les Halles (Lignes 1, 4, 7, 11, 14)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NovaTech Solutions</h3>
+                    <p>Votre partenaire technologique de confiance pour des solutions innovantes et performantes.</p>
+                    <div style="margin-top: 1rem;">
+                        <a href="#" style="margin-right: 1rem; font-size: 1.5rem;"><i class="fab fa-facebook"></i></a>
+                        <a href="#" style="margin-right: 1rem; font-size: 1.5rem;"><i class="fab fa-twitter"></i></a>
+                        <a href="#" style="margin-right: 1rem; font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" style="font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="services.html">Développement Web</a></li>
+                        <li><a href="services.html">Solutions Cloud</a></li>
+                        <li><a href="services.html">Applications Mobile</a></li>
+                        <li><a href="services.html">Consulting IT</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Entreprise</h3>
+                    <ul>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="casestudies.html">Études de cas</a></li>
+                        <li><a href="#">Carrières</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Rue de la Technologie, 75001 Paris</li>
+                        <li><i class="fas fa-phone"></i> +33 1 23 45 67 89</li>
+                        <li><i class="fas fa-envelope"></i> contact@novatech-solutions.fr</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NovaTech Solutions. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
